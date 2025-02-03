@@ -49,10 +49,18 @@ slate-auth-system/
     
 ### Backend   
 
-cd backend
-npm install
+ ```sh
+   cd backend
+   ```
+ ```sh
+   npm install or npm i --force
+   ```
+
 # Update the .env file with your PostgreSQL credentials
-npm run dev
+
+ ```sh
+   npm run dev
+   ```
 
 ### Frontend
 
