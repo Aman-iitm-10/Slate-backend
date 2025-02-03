@@ -12,6 +12,7 @@ This is a full-stack authentication system built with React, Node.js, Express, a
 Structure of the project
 
 slate-auth-system/
+
 ├── backend/
 
 │   ├── server.js
@@ -19,10 +20,15 @@ slate-auth-system/
 │   ├── .env
 
 │   └── package.json
+
 └── frontend/
+
     ├── public/
+    
     │   └── index.html
+    
     ├── src/
+    
     │   ├── components/
     │   │   ├── About.js
     │   │   ├── Contact.js
