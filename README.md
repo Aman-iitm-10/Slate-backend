@@ -13,8 +13,11 @@ Structure of the project
 
 slate-auth-system/
 ├── backend/
+
 │   ├── server.js
+
 │   ├── .env
+
 │   └── package.json
 └── frontend/
     ├── public/
