@@ -9,28 +9,41 @@ This is a full-stack authentication system built with React, Node.js, Express, a
 
 ## Setup Instructions
 
-### Backend
+Structure of the project
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/slate-auth-system.git
-   cd slate-auth-system/backend
-   ```
+slate-auth-system/
+├── backend/
+│   ├── server.js
+│   ├── .env
+│   └── package.json
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── About.js
+    │   │   ├── Contact.js
+    │   │   ├── Home.js
+    │   │   ├── Login.js
+    │   │   ├── Navbar.js
+    │   │   ├── ParentDashboard.js
+    │   │   ├── PrivateRoute.js
+    │   │   ├── SchoolDashboard.js
+    │   │   └── StudentDashboard.js
+    │   ├── App.js
+    │   ├── index.js
+    │   └── index.css
+    ├── .env
+    ├── package.json
+    └── tailwind.config.js
 
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
+    
+### Backend   
 
-3. Create a `.env` file and add your environment variables:
-   ```sh
-   touch .env
-   ```
-
-4. Start the backend server:
-   ```sh
-   npm run dev
-   ```
+cd backend
+npm install
+# Update the .env file with your PostgreSQL credentials
+npm run dev
 
 ### Frontend
 
@@ -41,30 +54,10 @@ This is a full-stack authentication system built with React, Node.js, Express, a
 
 2. Install dependencies:
    ```sh
-   npm install
-   ```
-
-3. Build the frontend:
-   ```sh
-   npm run build
+   npm install or npm i --force
    ```
 
 4. Start the frontend server:
    ```sh
    npm start
-   ```
-
-## Deployment
-
-1. Initialize a git repository in the root directory if not already done:
-   ```sh
-   git init
-   ```
-
-2. Add a remote repository and push the code to GitHub:
-   ```sh
-   git remote add origin https://github.com/your-username/slate-auth-system.git
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
    ```
